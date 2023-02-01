@@ -1,0 +1,10 @@
+Creating time:
+Use strong field validation so that anyone can’t enter any random data.
+Use strong authentication and authorization so that only authenticated users can perform their authorized tasks.
+Don’t expose more data than necessary.
+Throw right exceptions with related HTTP status-code so that users can use them in their own way or in case of exception it can show other releted data.
+
+Consuming:
+
+Try to fetch the data as less no of times as possible.
+Verify the source of data whether it is from an authenticated or not.

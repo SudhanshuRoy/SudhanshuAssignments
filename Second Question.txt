@@ -1,0 +1,6 @@
+Step 2: Create a method that will check by Integer.parse() whether it is convertible to a number or not. If it is, then return number otherwise in the catch block it will decode and as per the formula, it will be returned.
+Step 3: I can create one new file and insert these values into that file
+2. What type of errors you would you check for?
+I will use try-catch block while to catch no formate exception in case It is not a number and fileNotfoundException as well for wrong file name.
+3. How might a user break your code?
+By providing the wrong file name it will not work.
